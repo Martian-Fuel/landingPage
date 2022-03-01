@@ -1,5 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Footer from '../components/sections/footer';
+import Hero from '../components/sections/hero';
+import Main from '../components/sections/main';
 
 export default function Home() {
   return (
@@ -10,7 +13,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main></main>
+      <Hero />
+      <div className="hidden md:block">
+        <Main />
+      </div>
+      <Footer />
     </div>
   );
 }
