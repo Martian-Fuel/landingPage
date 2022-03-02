@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { github, instagram, telegram, twitter } from '../../../assets/icons';
 
@@ -8,18 +9,16 @@ const Footer = () => {
       <div className="flex flex-wrap items-center justify-between border-y py-3 md:py-6 border-light-grey">
         <div className="text-xs md:text-base">© 2022 Martianplace</div>
         <div className="flex items-center justify-between">
-          <button>
-            <Image src={telegram} />
-          </button>
-          <button className="ml-3">
-            <Image src={instagram} />
-          </button>
-          <button className="ml-3">
-            <Image src={twitter} />
-          </button>
-          <button className="ml-3">
-            <Image src={github} />
-          </button>
+          <Link href="">
+            <button className="ml-3">
+              <Image src={instagram} />
+            </button>
+          </Link>
+          <Link href="https://mobile.twitter.com/martianplace1">
+            <button className="ml-3">
+              <Image src={twitter} />
+            </button>
+          </Link>
         </div>
         <div className="hidden md:block">
           <div className="flex">

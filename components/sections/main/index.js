@@ -14,13 +14,9 @@ const Main = () => {
             The perfect place to connect Artists and NFT buyers
           </h5>
           <p className="mb-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            {
+              'MartianPlace is an upcoming NFT marketplace for the entertainment industry with a crowdfunding aspect. It’s a marketplace where creators of games, movie, music and more can share ideas, visions and creative work with the communities that will come together to fund them. Funds can be raised by offering NFT’s that are linked to the project or through donations.'
+            }
           </p>
           <div>
             <button className="bg-primary text-white w-[175px] px-10 py-3 rounded-3xl transition-all ease duration-500 hover:opacity-9">
