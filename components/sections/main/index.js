@@ -7,7 +7,7 @@ const Main = () => {
     <section className="mt-16">
       <div className="grid grid-cols-2 px-40">
         <div>
-          <h2 className="text-[43px] font-bold text-primary">
+          <h2 className="text-[43px] font-bold bg-clip-text text-transparent bg-gradient-to-r to-pink-500 from-violet-500">
             About Martianplace
           </h2>
           <h5 className="text-[22px] font-light mb-8">
@@ -19,7 +19,7 @@ const Main = () => {
             }
           </p>
           <div>
-            <button className="bg-primary text-white w-[175px] px-10 py-3 rounded-3xl transition-all ease duration-500 hover:opacity-9">
+            <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white w-[175px] px-10 py-3 rounded-3xl transition-all ease duration-500 hover:opacity-9">
               Signup
             </button>
           </div>

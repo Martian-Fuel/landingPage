@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="flex flex-wrap items-center justify-between border-y py-3 md:py-6 border-light-grey">
         <div className="text-xs md:text-base">© 2022 Martianplace</div>
         <div className="flex items-center justify-between">
-          <Link href="">
+          <Link href="/">
             <button className="ml-3">
               <Image src={instagram} />
             </button>
